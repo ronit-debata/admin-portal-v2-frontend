@@ -10,7 +10,7 @@ import { StudentService } from '../student.service';
 })
 export class StudentEditComponent implements OnInit {
 
-  id: number = 0;
+  id: any = "";
   studentForm: FormGroup;
   constructor(private activeRoute: ActivatedRoute,private router:Router,private userService:StudentService) {
 
